@@ -24,8 +24,7 @@ This MATLAB script converts NetCDF (.nc) files containing meteorological data (e
 1. Ensure NCTOOLBOX is installed in MATLAB.
 2. Place the NetCDF file (`Evaporation, Total precipitation.nc`) in the same directory as the script.
 3. Run the script in MATLAB:
-   ```matlab
-   run('script_name.m')
+>> run('netcdf_to_ascii_Precip.m')
 
 The output file TotalPrecipitation.txt will be generated in the same directory.
 
